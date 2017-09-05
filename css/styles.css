@@ -1,3 +1,46 @@
+/*fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+
+
+/* UNIVERSAL */
+
+* {
+    transition-duration: 0.2s;
+}
+
+.min-height {
+    min-height: 600px;
+}
+
+.primary-font {
+    font-family: 'Lobster', serif;
+}
+
+.secondary-font {
+    font-family: 'Raleway', Sans-Serif;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.orange-text {
+    color: #F8512F;
+}
+
+.thin-text {
+    font-weight: 300;
+}
+.thick-text {
+    font-weight: 700;
+}
+
+.orange-bg {
+    background-color: #F8512F;
+}
+
 /*Navbar Styles*/
 
 .navbar-inverse {
@@ -60,4 +103,60 @@
 
 #farm-bg {
     background-image: url('../img/farm-2.jpg');
+}
+
+/*Our Story Styles*/
+
+#our-story .row {
+    margin-top: 30px;
+}
+
+#our-story h1 {
+    font-size: 6em;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px #515151;
+}
+
+#our-story h3 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.year-text {
+    position: absolute;
+    z-index: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: rgba(149, 147, 147, 0.2);
+}
+
+/*Review*/
+
+.fresno-bee {
+    background-image: url('../img/food_review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fresno-bee h1 {
+    font-size: 5em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.review {
+    margin-top: 100px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+}
+
+#review .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+review p {
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
 }
